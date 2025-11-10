@@ -91,7 +91,7 @@ Partial Class SignUpOtpCode
         Margin = New Padding(4)
         Name = "SignUpOtpCode"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "SignUpOtpCode"
+        Text = "Enter OTP Code"
         TopMost = True
         ResumeLayout(False)
         PerformLayout()

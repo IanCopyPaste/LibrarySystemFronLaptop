@@ -4,6 +4,7 @@
             insertInfo()
             MsgBox("WELCOME TO LIBRARY! YOU MAY NOW LOG IN YOUR ACCOUNT!", vbInformation, "YEHEY!")
             clear()
+            SignUp.Close()
             Form1.Show()
             Me.Dispose()
         Else

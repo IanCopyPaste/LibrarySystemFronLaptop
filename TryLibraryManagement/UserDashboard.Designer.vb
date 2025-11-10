@@ -31,11 +31,11 @@ Partial Class UserDashboard
         userIDlbl = New Label()
         ProfileBoxUpper = New PictureBox()
         SidePanel = New Panel()
-        Button2 = New Button()
+        btnYourBooks = New Button()
         Button1 = New Button()
         SignOutBtn = New Button()
         MainPanel = New Panel()
-        FlowLayoutPanel1 = New FlowLayoutPanel()
+        flowPanelRecords = New FlowLayoutPanel()
         searchBox = New TextBox()
         TimeLabel = New Label()
         TopPanel.SuspendLayout()
@@ -125,7 +125,7 @@ Partial Class UserDashboard
         ' SidePanel
         ' 
         SidePanel.BackColor = SystemColors.Highlight
-        SidePanel.Controls.Add(Button2)
+        SidePanel.Controls.Add(btnYourBooks)
         SidePanel.Controls.Add(Button1)
         SidePanel.Controls.Add(SignOutBtn)
         SidePanel.Dock = DockStyle.Left
@@ -134,19 +134,19 @@ Partial Class UserDashboard
         SidePanel.Size = New Size(105, 563)
         SidePanel.TabIndex = 3
         ' 
-        ' Button2
+        ' btnYourBooks
         ' 
-        Button2.BackColor = SystemColors.HotTrack
-        Button2.FlatAppearance.BorderSize = 0
-        Button2.FlatStyle = FlatStyle.Flat
-        Button2.Font = New Font("Tahoma", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button2.ForeColor = SystemColors.ControlLightLight
-        Button2.Location = New Point(0, 173)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(103, 60)
-        Button2.TabIndex = 8
-        Button2.Text = "Book Dashboard"
-        Button2.UseVisualStyleBackColor = False
+        btnYourBooks.BackColor = SystemColors.HotTrack
+        btnYourBooks.FlatAppearance.BorderSize = 0
+        btnYourBooks.FlatStyle = FlatStyle.Flat
+        btnYourBooks.Font = New Font("Tahoma", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnYourBooks.ForeColor = SystemColors.ControlLightLight
+        btnYourBooks.Location = New Point(0, 173)
+        btnYourBooks.Name = "btnYourBooks"
+        btnYourBooks.Size = New Size(103, 60)
+        btnYourBooks.TabIndex = 8
+        btnYourBooks.Text = "Your Books"
+        btnYourBooks.UseVisualStyleBackColor = False
         ' 
         ' Button1
         ' 
@@ -179,7 +179,7 @@ Partial Class UserDashboard
         ' MainPanel
         ' 
         MainPanel.BackColor = Color.FromArgb(CByte(192), CByte(192), CByte(255))
-        MainPanel.Controls.Add(FlowLayoutPanel1)
+        MainPanel.Controls.Add(flowPanelRecords)
         MainPanel.Controls.Add(searchBox)
         MainPanel.Controls.Add(TimeLabel)
         MainPanel.Dock = DockStyle.Fill
@@ -188,13 +188,14 @@ Partial Class UserDashboard
         MainPanel.Size = New Size(1161, 563)
         MainPanel.TabIndex = 4
         ' 
-        ' FlowLayoutPanel1
+        ' flowPanelRecords
         ' 
-        FlowLayoutPanel1.BackColor = Color.FromArgb(CByte(128), CByte(128), CByte(255))
-        FlowLayoutPanel1.Location = New Point(37, 56)
-        FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        FlowLayoutPanel1.Size = New Size(1087, 465)
-        FlowLayoutPanel1.TabIndex = 4
+        flowPanelRecords.AutoScroll = True
+        flowPanelRecords.BackColor = Color.FromArgb(CByte(128), CByte(128), CByte(255))
+        flowPanelRecords.Location = New Point(37, 56)
+        flowPanelRecords.Name = "flowPanelRecords"
+        flowPanelRecords.Size = New Size(1087, 465)
+        flowPanelRecords.TabIndex = 4
         ' 
         ' searchBox
         ' 
@@ -247,9 +248,9 @@ Partial Class UserDashboard
     Friend WithEvents SidePanel As Panel
     Friend WithEvents Button1 As Button
     Friend WithEvents SignOutBtn As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnYourBooks As Button
     Friend WithEvents MainPanel As Panel
     Friend WithEvents searchBox As TextBox
     Friend WithEvents TimeLabel As Label
-    Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
+    Friend WithEvents flowPanelRecords As FlowLayoutPanel
 End Class

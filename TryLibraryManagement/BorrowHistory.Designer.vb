@@ -31,9 +31,9 @@ Partial Class BorrowHistory
         InsertBooksBtn = New Button()
         userPageBtn = New Button()
         MainPanel = New Panel()
+        FlowLayoutPanel1 = New FlowLayoutPanel()
         searchBox = New TextBox()
         TimeLabel = New Label()
-        FlowLayoutPanel1 = New FlowLayoutPanel()
         TopPanel.SuspendLayout()
         SidePanel.SuspendLayout()
         MainPanel.SuspendLayout()
@@ -157,6 +157,14 @@ Partial Class BorrowHistory
         MainPanel.Size = New Size(1161, 563)
         MainPanel.TabIndex = 3
         ' 
+        ' FlowLayoutPanel1
+        ' 
+        FlowLayoutPanel1.BackColor = Color.FromArgb(CByte(128), CByte(128), CByte(255))
+        FlowLayoutPanel1.Location = New Point(37, 60)
+        FlowLayoutPanel1.Name = "FlowLayoutPanel1"
+        FlowLayoutPanel1.Size = New Size(1099, 467)
+        FlowLayoutPanel1.TabIndex = 4
+        ' 
         ' searchBox
         ' 
         searchBox.Location = New Point(757, 21)
@@ -175,14 +183,6 @@ Partial Class BorrowHistory
         TimeLabel.Size = New Size(131, 25)
         TimeLabel.TabIndex = 1
         TimeLabel.Text = "Time Now: "
-        ' 
-        ' FlowLayoutPanel1
-        ' 
-        FlowLayoutPanel1.BackColor = Color.FromArgb(CByte(128), CByte(128), CByte(255))
-        FlowLayoutPanel1.Location = New Point(37, 60)
-        FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        FlowLayoutPanel1.Size = New Size(1099, 467)
-        FlowLayoutPanel1.TabIndex = 4
         ' 
         ' BorrowHistory
         ' 

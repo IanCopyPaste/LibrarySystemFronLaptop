@@ -88,7 +88,7 @@ Partial Class InsertBooks
         Label1.Font = New Font("Sitka Banner", 27.75F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
         Label1.Location = New Point(3, 7)
         Label1.Name = "Label1"
-        Label1.Size = New Size(761, 53)
+        Label1.Size = New Size(762, 53)
         Label1.TabIndex = 0
         Label1.Text = "Simpol Library Management System - Manage Books"
         Label1.TextAlign = ContentAlignment.MiddleCenter
@@ -238,7 +238,6 @@ Partial Class InsertBooks
         txtStatus.Name = "txtStatus"
         txtStatus.Size = New Size(178, 25)
         txtStatus.TabIndex = 29
-        txtStatus.Text = "Available"
         ' 
         ' refreshBtn
         ' 

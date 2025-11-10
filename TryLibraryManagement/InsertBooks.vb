@@ -106,14 +106,15 @@ Public Class InsertBooks
     Public Sub displayBooksCredential(id As Integer)
         Try
             con.Open()
-            Dim query As String = "SELECT bookID, title, author, category, profile FROM books WHERE bookID = @id"
+            Dim query As String = "SELECT bookID, title, author, category,stat, profile FROM books WHERE bookID = @id"
             Dim cmd As New MySqlCommand(query, con)
             cmd.Parameters.AddWithValue("@id", id)
             Dim read As MySqlDataReader = cmd.ExecuteReader
             While read.Read
-                txtTitle.Text = read.GetString("title").ToString
+                txtTitle.Text = read.GetString("title")
                 txtAuthor.Text = read.GetString("author")
                 txtCategory.Text = read.GetString("category")
+                txtStatus.Text = read.GetString("stat")
             End While
             txtBookID.Text = id
         Catch ex As Exception
@@ -174,7 +175,6 @@ Public Class InsertBooks
         ib1.Show()
         Me.Dispose()
     End Sub
-
     Sub searchUser()
         Try
             dbConOpen()
