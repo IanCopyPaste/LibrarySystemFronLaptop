@@ -37,6 +37,7 @@ Partial Class BorrowBookForm
         Label3 = New Label()
         txtBookID = New TextBox()
         Button1 = New Button()
+        lblNotVail = New Label()
         CType(borrowPic, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -201,12 +202,25 @@ Partial Class BorrowBookForm
         Button1.Text = "Go Back"
         Button1.UseVisualStyleBackColor = False
         ' 
+        ' lblNotVail
+        ' 
+        lblNotVail.AutoSize = True
+        lblNotVail.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point, CByte(0))
+        lblNotVail.ForeColor = Color.Red
+        lblNotVail.Location = New Point(216, 355)
+        lblNotVail.Name = "lblNotVail"
+        lblNotVail.Size = New Size(185, 17)
+        lblNotVail.TabIndex = 18
+        lblNotVail.Text = "*Sorry Book is not Avaialble*"
+        lblNotVail.Visible = False
+        ' 
         ' BorrowBookForm
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(192), CByte(192), CByte(255))
         ClientSize = New Size(584, 418)
+        Controls.Add(lblNotVail)
         Controls.Add(Button1)
         Controls.Add(Label3)
         Controls.Add(txtBookID)
@@ -246,4 +260,5 @@ Partial Class BorrowBookForm
     Friend WithEvents Label3 As Label
     Friend WithEvents txtBookID As TextBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents lblNotVail As Label
 End Class

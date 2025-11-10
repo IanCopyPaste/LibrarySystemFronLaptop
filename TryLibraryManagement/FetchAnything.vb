@@ -8,6 +8,9 @@ Module FetchAnything
     Public nameID As Integer
     Public pathTocreate As String
 
+    'variable para sa borrow booko form
+    Public getID3 As Integer
+
 
     'CreateActualBookForm
 

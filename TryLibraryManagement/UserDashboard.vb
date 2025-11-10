@@ -23,7 +23,7 @@ Public Class UserDashboard
                 Dim title As String = reader.GetString("title")
                 Dim imgBytes() As Byte = CType(reader("profile"), Byte())
                 Dim cat As String = reader.GetString("category")
-                Dim getID1 As Integer = reader.GetInt32("bookID")
+                Dim getID2 As Integer = reader.GetValue("bookID")
 
                 ' Convert bytes to image
                 Using ms As New MemoryStream(imgBytes)
@@ -77,7 +77,7 @@ Public Class UserDashboard
             }
                     ' Create title label
                     Dim lblBookID As New Label With {
-                .Text = "ID: " & getID1,
+                .Text = "ID: " & getID2,
                 .ForeColor = Color.FromArgb(33, 33, 33),
                 .Font = New Font("Segoe UI Semibold", 10.5F, FontStyle.Bold),
                 .AutoSize = True,
@@ -107,19 +107,21 @@ Public Class UserDashboard
                                                     cardShadow.BackColor = Color.FromArgb(200, 200, 200)
                                                     cardShadow.Padding = New Padding(0, 3, 3, 3)
                                                 End Sub
-                    Dim getID2 As Integer = reader.GetInt32("bookID")
+
                     ' Click event
                     AddHandler card.Click, Sub(sender1, e1)
+                                               FetchAnything.getID3 = getID2
                                                MsgBox(getID2)
-                                               'BorrowBookForm.Show()
+                                               BorrowBookForm.Show()
                                            End Sub
 
                     ' Make child controls also trigger parent events
                     For Each ctrl As Control In {pic, imgContainer, lblTitle}
                         ctrl.Cursor = Cursors.Hand
                         AddHandler ctrl.Click, Sub(sender2, e2)
+                                                   FetchAnything.getID3 = getID2
                                                    MsgBox(getID2)
-                                                   'BorrowBookForm.Show()
+                                                   BorrowBookForm.Show()
                                                End Sub
                         AddHandler ctrl.MouseEnter, Sub(sender2, e2)
                                                         card.BackColor = Color.FromArgb(250, 250, 250)

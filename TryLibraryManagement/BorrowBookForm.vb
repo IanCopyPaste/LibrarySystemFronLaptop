@@ -3,12 +3,12 @@ Imports MySql.Data.MySqlClient
 
 Public Class BorrowBookForm
     Private Sub BorrowBookForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'txtBookID.Text = getID
+        txtBookID.Text = getID3
         Try
             dbConOpen()
             Dim query As String = "SELECT * FROM books WHERE bookID = @id"
             Dim cmd As New MySqlCommand(query, con)
-            '   cmd.Parameters.AddWithValue("@id", getID)
+            cmd.Parameters.AddWithValue("@id", getID3)
             Dim read As MySqlDataReader = cmd.ExecuteReader
             While read.Read
                 txtTitle.Text = read.GetString("title")
@@ -29,6 +29,7 @@ Public Class BorrowBookForm
             dbConClose()
             If txtStatus.Text = "Not Available" Then
                 btnBorrow.Enabled = False
+                lblNotVail.Visible = True
             End If
         End Try
     End Sub
