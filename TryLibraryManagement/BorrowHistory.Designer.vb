@@ -22,6 +22,7 @@ Partial Class BorrowHistory
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        components = New ComponentModel.Container()
         TopPanel = New Panel()
         Label1 = New Label()
         SidePanel = New Panel()
@@ -31,12 +32,27 @@ Partial Class BorrowHistory
         InsertBooksBtn = New Button()
         userPageBtn = New Button()
         MainPanel = New Panel()
-        FlowLayoutPanel1 = New FlowLayoutPanel()
+        txtEmail = New TextBox()
+        Label3 = New Label()
+        BorrowTable = New DataGridView()
+        BorrowID = New DataGridViewTextBoxColumn()
+        UserID = New DataGridViewTextBoxColumn()
+        Email = New DataGridViewTextBoxColumn()
+        BookBorrowed = New DataGridViewTextBoxColumn()
+        BorrowDate = New DataGridViewTextBoxColumn()
+        DueDate = New DataGridViewTextBoxColumn()
+        Status = New DataGridViewTextBoxColumn()
+        Refresh = New Button()
+        btnSend = New Button()
+        Label2 = New Label()
+        RichTextBox1 = New RichTextBox()
         searchBox = New TextBox()
         TimeLabel = New Label()
+        Timer1 = New Timer(components)
         TopPanel.SuspendLayout()
         SidePanel.SuspendLayout()
         MainPanel.SuspendLayout()
+        CType(BorrowTable, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' TopPanel
@@ -142,13 +158,19 @@ Partial Class BorrowHistory
         userPageBtn.Name = "userPageBtn"
         userPageBtn.Size = New Size(105, 60)
         userPageBtn.TabIndex = 0
-        userPageBtn.Text = "Home"
+        userPageBtn.Text = "Manage Users"
         userPageBtn.UseVisualStyleBackColor = False
         ' 
         ' MainPanel
         ' 
         MainPanel.BackColor = Color.FromArgb(CByte(192), CByte(192), CByte(255))
-        MainPanel.Controls.Add(FlowLayoutPanel1)
+        MainPanel.Controls.Add(txtEmail)
+        MainPanel.Controls.Add(Label3)
+        MainPanel.Controls.Add(BorrowTable)
+        MainPanel.Controls.Add(Refresh)
+        MainPanel.Controls.Add(btnSend)
+        MainPanel.Controls.Add(Label2)
+        MainPanel.Controls.Add(RichTextBox1)
         MainPanel.Controls.Add(searchBox)
         MainPanel.Controls.Add(TimeLabel)
         MainPanel.Dock = DockStyle.Fill
@@ -157,13 +179,137 @@ Partial Class BorrowHistory
         MainPanel.Size = New Size(1161, 563)
         MainPanel.TabIndex = 3
         ' 
-        ' FlowLayoutPanel1
+        ' txtEmail
         ' 
-        FlowLayoutPanel1.BackColor = Color.FromArgb(CByte(128), CByte(128), CByte(255))
-        FlowLayoutPanel1.Location = New Point(37, 60)
-        FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        FlowLayoutPanel1.Size = New Size(1099, 467)
-        FlowLayoutPanel1.TabIndex = 4
+        txtEmail.BackColor = Color.White
+        txtEmail.BorderStyle = BorderStyle.None
+        txtEmail.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtEmail.Location = New Point(19, 366)
+        txtEmail.Name = "txtEmail"
+        txtEmail.PlaceholderText = "name@gmail.com"
+        txtEmail.Size = New Size(296, 20)
+        txtEmail.TabIndex = 11
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Tahoma", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.ForeColor = SystemColors.ActiveCaptionText
+        Label3.Location = New Point(19, 345)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(35, 18)
+        Label3.TabIndex = 10
+        Label3.Text = "To :"
+        ' 
+        ' BorrowTable
+        ' 
+        BorrowTable.AllowUserToAddRows = False
+        BorrowTable.AllowUserToDeleteRows = False
+        BorrowTable.BackgroundColor = Color.FromArgb(CByte(128), CByte(128), CByte(255))
+        BorrowTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        BorrowTable.Columns.AddRange(New DataGridViewColumn() {BorrowID, UserID, Email, BookBorrowed, BorrowDate, DueDate, Status})
+        BorrowTable.Location = New Point(334, 62)
+        BorrowTable.Name = "BorrowTable"
+        BorrowTable.ReadOnly = True
+        BorrowTable.Size = New Size(802, 472)
+        BorrowTable.TabIndex = 9
+        ' 
+        ' BorrowID
+        ' 
+        BorrowID.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        BorrowID.DataPropertyName = "BorrowID"
+        BorrowID.HeaderText = "BorrowID"
+        BorrowID.Name = "BorrowID"
+        BorrowID.ReadOnly = True
+        ' 
+        ' UserID
+        ' 
+        UserID.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        UserID.DataPropertyName = "UserID"
+        UserID.HeaderText = "UserID"
+        UserID.Name = "UserID"
+        UserID.ReadOnly = True
+        ' 
+        ' Email
+        ' 
+        Email.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Email.DataPropertyName = "Email"
+        Email.HeaderText = "Email"
+        Email.Name = "Email"
+        Email.ReadOnly = True
+        ' 
+        ' BookBorrowed
+        ' 
+        BookBorrowed.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        BookBorrowed.DataPropertyName = "Book_Borrowed"
+        BookBorrowed.HeaderText = "Book Borrowed"
+        BookBorrowed.Name = "BookBorrowed"
+        BookBorrowed.ReadOnly = True
+        ' 
+        ' BorrowDate
+        ' 
+        BorrowDate.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        BorrowDate.DataPropertyName = "Borrowed_On"
+        BorrowDate.HeaderText = "BorrowDate"
+        BorrowDate.Name = "BorrowDate"
+        BorrowDate.ReadOnly = True
+        ' 
+        ' DueDate
+        ' 
+        DueDate.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        DueDate.DataPropertyName = "Due_Date"
+        DueDate.HeaderText = "DueDate"
+        DueDate.Name = "DueDate"
+        DueDate.ReadOnly = True
+        ' 
+        ' Status
+        ' 
+        Status.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Status.DataPropertyName = "Statuss"
+        Status.HeaderText = "Status"
+        Status.Name = "Status"
+        Status.ReadOnly = True
+        ' 
+        ' Refresh
+        ' 
+        Refresh.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point, CByte(0))
+        Refresh.Location = New Point(6, 6)
+        Refresh.Name = "Refresh"
+        Refresh.Size = New Size(72, 28)
+        Refresh.TabIndex = 8
+        Refresh.Text = "Refresh"
+        Refresh.UseVisualStyleBackColor = True
+        ' 
+        ' btnSend
+        ' 
+        btnSend.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        btnSend.Location = New Point(77, 409)
+        btnSend.Name = "btnSend"
+        btnSend.Size = New Size(184, 28)
+        btnSend.TabIndex = 7
+        btnSend.Text = "Send"
+        btnSend.UseVisualStyleBackColor = True
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Tahoma", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.ForeColor = SystemColors.ActiveCaptionText
+        Label2.Location = New Point(19, 82)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(159, 18)
+        Label2.TabIndex = 6
+        Label2.Text = "Message returnees :"
+        ' 
+        ' RichTextBox1
+        ' 
+        RichTextBox1.BackColor = Color.FromArgb(CByte(128), CByte(128), CByte(255))
+        RichTextBox1.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        RichTextBox1.Location = New Point(19, 105)
+        RichTextBox1.Name = "RichTextBox1"
+        RichTextBox1.Size = New Size(296, 224)
+        RichTextBox1.TabIndex = 5
+        RichTextBox1.Text = "Type you message here....."
         ' 
         ' searchBox
         ' 
@@ -178,11 +324,15 @@ Partial Class BorrowHistory
         TimeLabel.AutoSize = True
         TimeLabel.Font = New Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         TimeLabel.ForeColor = SystemColors.ActiveCaptionText
-        TimeLabel.Location = New Point(37, 17)
+        TimeLabel.Location = New Point(334, 21)
         TimeLabel.Name = "TimeLabel"
         TimeLabel.Size = New Size(131, 25)
         TimeLabel.TabIndex = 1
         TimeLabel.Text = "Time Now: "
+        ' 
+        ' Timer1
+        ' 
+        Timer1.Enabled = True
         ' 
         ' BorrowHistory
         ' 
@@ -200,6 +350,7 @@ Partial Class BorrowHistory
         SidePanel.ResumeLayout(False)
         MainPanel.ResumeLayout(False)
         MainPanel.PerformLayout()
+        CType(BorrowTable, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -214,5 +365,19 @@ Partial Class BorrowHistory
     Friend WithEvents MainPanel As Panel
     Friend WithEvents searchBox As TextBox
     Friend WithEvents TimeLabel As Label
-    Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
+    Friend WithEvents btnSend As Button
+    Friend WithEvents Label2 As Label
+    Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents Refresh As Button
+    Friend WithEvents BorrowTable As DataGridView
+    Friend WithEvents BorrowID As DataGridViewTextBoxColumn
+    Friend WithEvents UserID As DataGridViewTextBoxColumn
+    Friend WithEvents Email As DataGridViewTextBoxColumn
+    Friend WithEvents BookBorrowed As DataGridViewTextBoxColumn
+    Friend WithEvents BorrowDate As DataGridViewTextBoxColumn
+    Friend WithEvents DueDate As DataGridViewTextBoxColumn
+    Friend WithEvents Status As DataGridViewTextBoxColumn
+    Friend WithEvents txtEmail As TextBox
+    Friend WithEvents Label3 As Label
 End Class

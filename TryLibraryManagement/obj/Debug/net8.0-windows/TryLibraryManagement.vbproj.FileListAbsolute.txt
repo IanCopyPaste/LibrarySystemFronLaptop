@@ -128,3 +128,5 @@ C:\Users\ronad\Documents\vbWorks\LibraryManagementSystem-main\TryLibraryManageme
 C:\Users\ronad\Documents\vbWorks\LibraryManagementSystem-main\TryLibraryManagement\obj\Debug\net8.0-windows\ref\TryLibraryManagement.dll
 C:\Users\ronad\Documents\vbWorks\LibraryManagementSystem-main\TryLibraryManagement\obj\Debug\net8.0-windows\TryLibraryManagement.SignUpOtpCode.resources
 C:\Users\ronad\Documents\vbWorks\LibraryManagementSystem-main\TryLibraryManagement\obj\Debug\net8.0-windows\TryLibraryManagement.sourcelink.json
+C:\Users\ronad\Documents\vbWorks\LibraryManagementSystem-main\TryLibraryManagement\obj\Debug\net8.0-windows\TryLibraryManagement.YourBorrowedBooks.resources
+C:\Users\ronad\Documents\vbWorks\LibraryManagementSystem-main\TryLibraryManagement\obj\Debug\net8.0-windows\TryLibraryManagement.ReturnBookForm.resources

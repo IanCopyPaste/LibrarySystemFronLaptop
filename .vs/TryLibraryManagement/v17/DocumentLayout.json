@@ -3,52 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\returnbookform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\returnbookform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\returnbookform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\returnbookform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\borrowbookform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\borrowbookform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\yourborrowedbooks.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\yourborrowedbooks.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\userdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\userdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\yourborrowedbooks.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\yourborrowedbooks.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\borrowbookform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\borrowbookform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\borrowhistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\borrowhistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\borrowbookform.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\borrowbookform.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\userdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\userdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\fetchanything.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\fetchanything.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\signupotpcode.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\signupotpcode.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\insertbooks.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\insertbooks.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\insertbooks.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\insertbooks.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\signupotpcode.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\signupotpcode.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\borrowhistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\borrowhistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\signup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\signup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\maindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\maindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\insertbooks.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\insertbooks.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\fetchanything.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\fetchanything.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\createactualbook.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\createactualbook.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\borrowhistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -59,8 +75,24 @@
       "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\maindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\createactualbook.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\createactualbook.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\userdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\userdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\insertbooks.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\insertbooks.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\signup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\signup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|c:\\users\\ronad\\documents\\vbworks\\librarymanagementsystem-main\\trylibrarymanagement\\signupotpcode.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1F5442FA-78BA-436D-BCDA-CC9C9F6DDE45}|TryLibraryManagement\\TryLibraryManagement.vbproj|solutionrelative:trylibrarymanagement\\signupotpcode.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 931,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,7 +114,70 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BorrowBookForm.vb",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\BorrowBookForm.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\BorrowBookForm.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\BorrowBookForm.vb",
+              "RelativeToolTip": "TryLibraryManagement\\BorrowBookForm.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-09T17:30:06.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "YourBorrowedBooks.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\YourBorrowedBooks.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\YourBorrowedBooks.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\YourBorrowedBooks.vb [Design]",
+              "RelativeToolTip": "TryLibraryManagement\\YourBorrowedBooks.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-11T05:14:07.377Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReturnBookForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\ReturnBookForm.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\ReturnBookForm.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\ReturnBookForm.vb [Design]",
+              "RelativeToolTip": "TryLibraryManagement\\ReturnBookForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-11T06:24:38.726Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReturnBookForm.vb",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\ReturnBookForm.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\ReturnBookForm.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\ReturnBookForm.vb",
+              "RelativeToolTip": "TryLibraryManagement\\ReturnBookForm.vb",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-11T06:44:47.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "YourBorrowedBooks.vb",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\YourBorrowedBooks.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\YourBorrowedBooks.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\YourBorrowedBooks.vb",
+              "RelativeToolTip": "TryLibraryManagement\\YourBorrowedBooks.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-11T05:19:30.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "BorrowBookForm.vb [Design]",
               "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\BorrowBookForm.vb",
               "RelativeDocumentMoniker": "TryLibraryManagement\\BorrowBookForm.vb",
@@ -94,131 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserDashboard.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\UserDashboard.vb",
-              "RelativeDocumentMoniker": "TryLibraryManagement\\UserDashboard.vb",
-              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\UserDashboard.vb [Design]",
-              "RelativeToolTip": "TryLibraryManagement\\UserDashboard.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-09T17:17:05.591Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserDashboard.vb",
-              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\UserDashboard.vb",
-              "RelativeDocumentMoniker": "TryLibraryManagement\\UserDashboard.vb",
-              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\UserDashboard.vb",
-              "RelativeToolTip": "TryLibraryManagement\\UserDashboard.vb",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAowG8AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-09T17:26:43.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\Form1.vb",
-              "RelativeDocumentMoniker": "TryLibraryManagement\\Form1.vb",
-              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\Form1.vb",
-              "RelativeToolTip": "TryLibraryManagement\\Form1.vb",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-17T11:55:25.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BorrowBookForm.vb",
-              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\BorrowBookForm.vb",
-              "RelativeDocumentMoniker": "TryLibraryManagement\\BorrowBookForm.vb",
-              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\BorrowBookForm.vb",
-              "RelativeToolTip": "TryLibraryManagement\\BorrowBookForm.vb",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCcAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-09T17:30:06.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Form1.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\Form1.vb",
-              "RelativeDocumentMoniker": "TryLibraryManagement\\Form1.vb",
-              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\Form1.vb [Design]",
-              "RelativeToolTip": "TryLibraryManagement\\Form1.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-17T11:55:21.499Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FetchAnything.vb",
-              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\FetchAnything.vb",
-              "RelativeDocumentMoniker": "TryLibraryManagement\\FetchAnything.vb",
-              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\FetchAnything.vb",
-              "RelativeToolTip": "TryLibraryManagement\\FetchAnything.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-10T12:23:00.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SignUpOtpCode.vb",
-              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\SignUpOtpCode.vb",
-              "RelativeDocumentMoniker": "TryLibraryManagement\\SignUpOtpCode.vb",
-              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\SignUpOtpCode.vb",
-              "RelativeToolTip": "TryLibraryManagement\\SignUpOtpCode.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-10T13:33:22.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InsertBooks.vb",
-              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\InsertBooks.vb",
-              "RelativeDocumentMoniker": "TryLibraryManagement\\InsertBooks.vb",
-              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\InsertBooks.vb",
-              "RelativeToolTip": "TryLibraryManagement\\InsertBooks.vb",
-              "ViewState": "AgIAAGAAAAAAAAAAAIAzwGwAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-10T14:47:22.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InsertBooks.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\InsertBooks.vb",
-              "RelativeDocumentMoniker": "TryLibraryManagement\\InsertBooks.vb",
-              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\InsertBooks.vb [Design]",
-              "RelativeToolTip": "TryLibraryManagement\\InsertBooks.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-10T14:46:59.693Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SignUpOtpCode.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\SignUpOtpCode.vb",
-              "RelativeDocumentMoniker": "TryLibraryManagement\\SignUpOtpCode.vb",
-              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\SignUpOtpCode.vb [Design]",
-              "RelativeToolTip": "TryLibraryManagement\\SignUpOtpCode.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-10T13:32:50.262Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "BorrowHistory.vb [Design]",
               "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\BorrowHistory.vb",
               "RelativeDocumentMoniker": "TryLibraryManagement\\BorrowHistory.vb",
@@ -230,31 +201,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BorrowHistory.vb",
-              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\BorrowHistory.vb",
-              "RelativeDocumentMoniker": "TryLibraryManagement\\BorrowHistory.vb",
-              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\BorrowHistory.vb",
-              "RelativeToolTip": "TryLibraryManagement\\BorrowHistory.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "BorrowBookForm.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\BorrowBookForm.Designer.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\BorrowBookForm.Designer.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\BorrowBookForm.Designer.vb",
+              "RelativeToolTip": "TryLibraryManagement\\BorrowBookForm.Designer.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-10T12:23:31.393Z"
+              "WhenOpened": "2025-11-11T06:24:53.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserDashboard.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\UserDashboard.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\UserDashboard.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\UserDashboard.vb [Design]",
+              "RelativeToolTip": "TryLibraryManagement\\UserDashboard.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-09T17:17:05.591Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignUpOtpCode.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\SignUpOtpCode.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\SignUpOtpCode.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\SignUpOtpCode.vb [Design]",
+              "RelativeToolTip": "TryLibraryManagement\\SignUpOtpCode.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-10T13:32:50.262Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SignUp.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\SignUp.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\SignUp.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\SignUp.vb [Design]",
+              "RelativeToolTip": "TryLibraryManagement\\SignUp.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-11T05:11:43.38Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainDashboard.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\MainDashboard.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\MainDashboard.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\MainDashboard.vb [Design]",
+              "RelativeToolTip": "TryLibraryManagement\\MainDashboard.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-11T04:43:11.758Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InsertBooks.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\InsertBooks.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\InsertBooks.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\InsertBooks.vb [Design]",
+              "RelativeToolTip": "TryLibraryManagement\\InsertBooks.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-10T14:46:59.693Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "MainDashboard.vb",
-              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\MainDashboard.vb",
-              "RelativeDocumentMoniker": "TryLibraryManagement\\MainDashboard.vb",
-              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\MainDashboard.vb",
-              "RelativeToolTip": "TryLibraryManagement\\MainDashboard.vb",
-              "ViewState": "AgIAAPUAAAAAAAAAAAAewAYBAAA3AAAAAAAAAA==",
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\Form1.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\Form1.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\Form1.vb [Design]",
+              "RelativeToolTip": "TryLibraryManagement\\Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-16T10:28:56.16Z"
+              "WhenOpened": "2025-10-17T11:55:21.499Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "FetchAnything.vb",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\FetchAnything.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\FetchAnything.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\FetchAnything.vb",
+              "RelativeToolTip": "TryLibraryManagement\\FetchAnything.vb",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAcwI0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-10T12:23:00.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "CreateActualBook.vb [Design]",
               "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\CreateActualBook.vb",
               "RelativeDocumentMoniker": "TryLibraryManagement\\CreateActualBook.vb",
@@ -263,6 +307,90 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-11-08T04:10:59.702Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BorrowHistory.vb",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\BorrowHistory.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\BorrowHistory.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\BorrowHistory.vb",
+              "RelativeToolTip": "TryLibraryManagement\\BorrowHistory.vb",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAEwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-10T12:23:31.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainDashboard.vb",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\MainDashboard.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\MainDashboard.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\MainDashboard.vb",
+              "RelativeToolTip": "TryLibraryManagement\\MainDashboard.vb",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAawNkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-16T10:28:56.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserDashboard.vb",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\UserDashboard.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\UserDashboard.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\UserDashboard.vb",
+              "RelativeToolTip": "TryLibraryManagement\\UserDashboard.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-09T17:26:43.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InsertBooks.vb",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\InsertBooks.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\InsertBooks.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\InsertBooks.vb",
+              "RelativeToolTip": "TryLibraryManagement\\InsertBooks.vb",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAawN0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-10T14:47:22.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SignUp.vb",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\SignUp.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\SignUp.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\SignUp.vb",
+              "RelativeToolTip": "TryLibraryManagement\\SignUp.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-11T05:11:48.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\Form1.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\Form1.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\Form1.vb",
+              "RelativeToolTip": "TryLibraryManagement\\Form1.vb",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-17T11:55:25.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SignUpOtpCode.vb",
+              "DocumentMoniker": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\SignUpOtpCode.vb",
+              "RelativeDocumentMoniker": "TryLibraryManagement\\SignUpOtpCode.vb",
+              "ToolTip": "C:\\Users\\ronad\\Documents\\vbWorks\\LibraryManagementSystem-main\\TryLibraryManagement\\SignUpOtpCode.vb",
+              "RelativeToolTip": "TryLibraryManagement\\SignUpOtpCode.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-10T13:33:22.376Z"
             }
           ]
         },

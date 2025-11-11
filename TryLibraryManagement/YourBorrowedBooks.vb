@@ -1,28 +1,24 @@
-﻿Imports System.Drawing.Drawing2D
-Imports System.IO
-Imports System.Security.Cryptography.X509Certificates
+﻿Imports System.IO
 Imports MySql.Data.MySqlClient
 
-Public Class UserDashboard
-    Private Sub SignOutBtn_Click(sender As Object, e As EventArgs) Handles SignOutBtn.Click
-        Form1.Show()
-        Me.Close()
-        Me.Dispose()
-    End Sub
-
-    Private Sub UserDashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        flowPanelRecords.Controls.Clear()
+Public Class YourBorrowedBooks
+    Private Sub YourBorrowedBooks_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ewanFLow.Controls.Clear()
         Try
             dbConOpen()
-            Dim query As String = "SELECT bookID, profile, category,title FROM books"
+            Dim query As String = "SELECT bk.title as title, bk.bookID AS bookid, bk.profile AS pic, bk.category AS cat 
+                                   FROM borrow br JOIN users u ON u.userID = br.userID
+                                   JOIN books bk ON bk.bookID = br.bookID
+                                   WHERE u.userID = @id"
             Dim cmd As New MySqlCommand(query, con)
+            cmd.Parameters.AddWithValue("@id", accNum)
             Dim reader As MySqlDataReader = cmd.ExecuteReader()
 
             While reader.Read()
                 Dim title As String = reader.GetString("title")
-                Dim imgBytes() As Byte = CType(reader("profile"), Byte())
-                Dim cat As String = reader.GetString("category")
-                Dim getID2 As Integer = reader.GetValue("bookID")
+                Dim imgBytes() As Byte = CType(reader("pic"), Byte())
+                Dim cat As String = reader.GetString("cat")
+                Dim getID2 As Integer = reader.GetValue("bookid")
 
                 Using ms As New MemoryStream(imgBytes)
                     Dim img As Image = Image.FromStream(ms)
@@ -131,7 +127,7 @@ Public Class UserDashboard
                     card.Controls.Add(lblGenre)
                     cardShadow.Controls.Add(card)
 
-                    flowPanelRecords.Controls.Add(cardShadow)
+                    ewanFLow.Controls.Add(cardShadow)
                 End Using
             End While
 
@@ -144,8 +140,8 @@ Public Class UserDashboard
         End Try
     End Sub
 
-    Private Sub btnYourBooks_Click(sender As Object, e As EventArgs) Handles btnYourBooks.Click
-        YourBorrowedBooks.Show()
+    Private Sub SignOutBtn_Click(sender As Object, e As EventArgs) Handles SignOutBtn.Click
+        Form1.Show()
         Me.Dispose()
     End Sub
 End Class

@@ -222,5 +222,10 @@ Public Class InsertBooks
         BorrowHistory.Show()
         Me.Dispose()
     End Sub
+
+    Private Sub SignOutBtn_Click(sender As Object, e As EventArgs) Handles SignOutBtn.Click
+        SignUp.Show()
+        Me.Dispose()
+    End Sub
     'methods
 End Class

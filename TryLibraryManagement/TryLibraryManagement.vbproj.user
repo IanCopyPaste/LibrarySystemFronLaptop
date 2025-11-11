@@ -19,6 +19,9 @@
     <Compile Update="MainDashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ReturnBookForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="SignUp.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -26,6 +29,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="UserDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="YourBorrowedBooks.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

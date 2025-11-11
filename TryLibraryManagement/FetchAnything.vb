@@ -11,6 +11,9 @@ Module FetchAnything
     'variable para sa borrow booko form
     Public getID3 As Integer
 
+    'app password for the sender of the message
+    Private app_pass As String = "iqpv kbbd dniy akom"
+
 
     'CreateActualBookForm
 
@@ -85,7 +88,7 @@ Module FetchAnything
 
             Dim smtp As New SmtpClient("smtp.gmail.com")
             smtp.Port = 587
-            smtp.Credentials = New NetworkCredential("bobbycuen@gmail.com", "iqpv kbbd dniy akom")
+            smtp.Credentials = New NetworkCredential("bobbycuen@gmail.com", app_pass)
             smtp.EnableSsl = True
 
             smtp.Send(mail)
@@ -137,4 +140,28 @@ Module FetchAnything
         End Try
     End Sub
     'API CALLS FOR SIGN UP
+
+    'API CALLS FOR BORROW HISTORY
+    Public Sub NotifyReturnees(emails As String, misij As String)
+        Try
+            Dim mail As New MailMessage()
+            mail.From = New MailAddress("bobbycuen@gmail.com", "FROM: LIBRARY MANAGEMENT SYSTEM by Ian")
+            mail.To.Add(emails)
+            mail.Subject = "KINDLY RETURN THE BOOK!"
+            mail.Body = misij
+
+            Dim smtp As New SmtpClient("smtp.gmail.com")
+            smtp.Port = 587
+            smtp.Credentials = New NetworkCredential("bobbycuen@gmail.com", app_pass)
+            smtp.EnableSsl = True
+
+            smtp.Send(mail)
+
+            MessageBox.Show("Your Verification Code was sent to your Email", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+        Catch ex As Exception
+            MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+    'API CALLS FOR BORROW HISTORY
 End Module
