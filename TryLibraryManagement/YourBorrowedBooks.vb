@@ -9,7 +9,7 @@ Public Class YourBorrowedBooks
             Dim query As String = "SELECT bk.title as title, bk.bookID AS bookid, bk.profile AS pic, bk.category AS cat 
                                    FROM borrow br JOIN users u ON u.userID = br.userID
                                    JOIN books bk ON bk.bookID = br.bookID
-                                   WHERE u.userID = @id"
+                                   WHERE u.userID = @id AND br.stat = 'Borrowed'"
             Dim cmd As New MySqlCommand(query, con)
             cmd.Parameters.AddWithValue("@id", accNum)
             Dim reader As MySqlDataReader = cmd.ExecuteReader()
@@ -98,7 +98,7 @@ Public Class YourBorrowedBooks
                     AddHandler card.Click, Sub(sender1, e1)
                                                FetchAnything.getID3 = getID2
                                                MsgBox(getID2)
-                                               BorrowBookForm.Show()
+                                               ReturnBookForm.Show()
                                            End Sub
 
                     For Each ctrl As Control In {pic, imgContainer, lblTitle}
@@ -106,7 +106,7 @@ Public Class YourBorrowedBooks
                         AddHandler ctrl.Click, Sub(sender2, e2)
                                                    FetchAnything.getID3 = getID2
                                                    MsgBox(getID2)
-                                                   BorrowBookForm.Show()
+                                                   ReturnBookForm.Show()
                                                End Sub
                         AddHandler ctrl.MouseEnter, Sub(sender2, e2)
                                                         card.BackColor = Color.FromArgb(250, 250, 250)
@@ -142,6 +142,11 @@ Public Class YourBorrowedBooks
 
     Private Sub SignOutBtn_Click(sender As Object, e As EventArgs) Handles SignOutBtn.Click
         Form1.Show()
+        Me.Dispose()
+    End Sub
+
+    Private Sub userPageBtn_Click(sender As Object, e As EventArgs) Handles userPageBtn.Click
+        UserDashboard.Show()
         Me.Dispose()
     End Sub
 End Class

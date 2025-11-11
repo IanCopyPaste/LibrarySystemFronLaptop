@@ -22,11 +22,10 @@ Partial Class ReturnBookForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        lblNotVail = New Label()
         Button1 = New Button()
         Label3 = New Label()
         txtBookID = New TextBox()
-        btnBorrow = New Button()
+        btnReturn = New Button()
         Label6 = New Label()
         txtStatus = New TextBox()
         Label5 = New Label()
@@ -40,18 +39,6 @@ Partial Class ReturnBookForm
         borrowPic = New PictureBox()
         CType(borrowPic, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
-        ' 
-        ' lblNotVail
-        ' 
-        lblNotVail.AutoSize = True
-        lblNotVail.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point, CByte(0))
-        lblNotVail.ForeColor = Color.Red
-        lblNotVail.Location = New Point(232, 361)
-        lblNotVail.Name = "lblNotVail"
-        lblNotVail.Size = New Size(185, 17)
-        lblNotVail.TabIndex = 34
-        lblNotVail.Text = "*Sorry Book is not Avaialble*"
-        lblNotVail.Visible = False
         ' 
         ' Button1
         ' 
@@ -86,18 +73,18 @@ Partial Class ReturnBookForm
         txtBookID.TabIndex = 31
         txtBookID.TextAlign = HorizontalAlignment.Center
         ' 
-        ' btnBorrow
+        ' btnReturn
         ' 
-        btnBorrow.BackColor = Color.White
-        btnBorrow.FlatAppearance.BorderSize = 0
-        btnBorrow.FlatStyle = FlatStyle.Flat
-        btnBorrow.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnBorrow.Location = New Point(186, 381)
-        btnBorrow.Name = "btnBorrow"
-        btnBorrow.Size = New Size(282, 31)
-        btnBorrow.TabIndex = 30
-        btnBorrow.Text = "Borrow Book"
-        btnBorrow.UseVisualStyleBackColor = False
+        btnReturn.BackColor = Color.White
+        btnReturn.FlatAppearance.BorderSize = 0
+        btnReturn.FlatStyle = FlatStyle.Flat
+        btnReturn.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnReturn.Location = New Point(175, 375)
+        btnReturn.Name = "btnReturn"
+        btnReturn.Size = New Size(282, 31)
+        btnReturn.TabIndex = 30
+        btnReturn.Text = "Return Book"
+        btnReturn.UseVisualStyleBackColor = False
         ' 
         ' Label6
         ' 
@@ -220,11 +207,10 @@ Partial Class ReturnBookForm
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(128), CByte(128), CByte(255))
         ClientSize = New Size(584, 418)
-        Controls.Add(lblNotVail)
         Controls.Add(Button1)
         Controls.Add(Label3)
         Controls.Add(txtBookID)
-        Controls.Add(btnBorrow)
+        Controls.Add(btnReturn)
         Controls.Add(Label6)
         Controls.Add(txtStatus)
         Controls.Add(Label5)
@@ -237,7 +223,7 @@ Partial Class ReturnBookForm
         Controls.Add(txtTitle)
         Controls.Add(borrowPic)
         Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Margin = New Padding(4, 4, 4, 4)
+        Margin = New Padding(4)
         Name = "ReturnBookForm"
         StartPosition = FormStartPosition.CenterScreen
         Text = "ReturnBookForm"
@@ -245,12 +231,10 @@ Partial Class ReturnBookForm
         ResumeLayout(False)
         PerformLayout()
     End Sub
-
-    Friend WithEvents lblNotVail As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents txtBookID As TextBox
-    Friend WithEvents btnBorrow As Button
+    Friend WithEvents btnReturn As Button
     Friend WithEvents Label6 As Label
     Friend WithEvents txtStatus As TextBox
     Friend WithEvents Label5 As Label

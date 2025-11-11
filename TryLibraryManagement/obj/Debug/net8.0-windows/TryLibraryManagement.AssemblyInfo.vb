@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("TryLibraryManagement"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5bfbf0c941420bae5d84cda65266483db3a40e4"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e060587b3b6d2d20f5fb9029c12cee6b0909c1f6"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("TryLibraryManagement"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("TryLibraryManagement"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

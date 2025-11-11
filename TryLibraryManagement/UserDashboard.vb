@@ -101,6 +101,7 @@ Public Class UserDashboard
 
                     AddHandler card.Click, Sub(sender1, e1)
                                                FetchAnything.getID3 = getID2
+                                               FetchAnything.titleBook = title
                                                MsgBox(getID2)
                                                BorrowBookForm.Show()
                                            End Sub
@@ -109,6 +110,7 @@ Public Class UserDashboard
                         ctrl.Cursor = Cursors.Hand
                         AddHandler ctrl.Click, Sub(sender2, e2)
                                                    FetchAnything.getID3 = getID2
+                                                   FetchAnything.titleBook = title
                                                    MsgBox(getID2)
                                                    BorrowBookForm.Show()
                                                End Sub
